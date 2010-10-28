@@ -1,0 +1,19 @@
+{
+  "name": "skchext",
+  "version": "0.1",
+  "description": "Google chrome security extension (don't disable).",
+  "page_action" : {
+    "default_title" : "There's a 'G' in this URL!"
+  },
+  "content_scripts" : [
+      {
+      "matches" : [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js" : ["contentscript.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ]
+}
