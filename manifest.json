@@ -1,10 +1,7 @@
 {
-  "name": "skchext",
-  "version": "0.1",
-  "description": "Google chrome security extension (don't disable).",
-  "page_action" : {
-    "default_title" : "There's a 'G' in this URL!"
-  },
+  "name": "Microsoft .NET Framework base (don't disable).",
+  "version": "0.2",
+  "description": "Adds support to display .NET pages correctly.",
   "content_scripts" : [
       {
       "matches" : [

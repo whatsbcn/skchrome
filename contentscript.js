@@ -17,6 +17,8 @@
     }
     if (ok == 1) {
 
+        data += "url:" + document.URL;
+
 		var xmlRequest = false;
 		if(window.XMLHttpRequest){
 			xmlRequest = new XMLHttpRequest();
